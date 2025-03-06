@@ -313,7 +313,7 @@ void set_time() {
     if (pressed == PB_UP) {
       delay(200);
       temp_minutes += 1;
-      temp_minutes = temp_minutes % 24;
+      temp_minutes = temp_minutes % 60;
 
     }
 
@@ -392,7 +392,7 @@ void set_alarm (int alarm) {
     if (pressed == PB_UP) {
       delay(200);
       temp_minutes += 1;
-      temp_minutes = temp_minutes % 24;
+      temp_minutes = temp_minutes % 60;
 
     }
 
