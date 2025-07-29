@@ -1,6 +1,5 @@
 # MediBox
-# MediBox - Smart Medicine Reminder System
-
+### Smart medicine remainder system
 ## Overview
 
 MediBox is an ESP32-based smart medicine reminder system that helps users manage their medication schedules effectively. The device features an OLED display, multiple alarms, environmental monitoring, and WiFi connectivity with NTP time synchronization.
